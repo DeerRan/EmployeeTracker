@@ -189,12 +189,13 @@ async function addRole() {
 
     await connection.query(`INSERT INTO role (title, salary, department_id) VALUES ('${role.title}', ${role.salary}, ${role.department_id})`, (err, res) => {
       if (err) throw err;
-      else;
+      else; 
+      
+      console.log(`Added ${role.title} to the database`);
+    
+      options();
     });
   
-    console.log(`Added ${role.title} to the database`);
-  
-    options();
   });
 }
 
