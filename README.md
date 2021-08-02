@@ -17,7 +17,7 @@
 ## Description  
 This command-line program lets users to view and manage the departments, roles, and employees in their company, allowing them to organize and plan their business.
 ## Demo
-
+https://youtu.be/SAQOACiI4Js
 ## Installation
 Grab the program from github. If you do not have a database, create one in your SQL workbench and update the connecton.js file with your information. From there, run "npm install" in your node terminal and run "node .\index.js" to start the program.
 ## Usage
@@ -33,4 +33,4 @@ Link to my GitHub profile: https://github.com/DeerRan
 ## License
 This project is covered by the Unlicense license.
 ## Deployable Link
-
+N/A
